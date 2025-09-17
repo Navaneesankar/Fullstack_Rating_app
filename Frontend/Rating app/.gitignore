@@ -52,3 +52,25 @@ serviceAccountKey.json
 # Optional system files
 .DS_Store
 Thumbs.db
+
+# Backend Node Modules
+Backend/node_modules/
+
+# Frontend Node Modules
+Frontend/node_modules/
+
+# Build outputs
+Frontend/build/
+Backend/dist/
+
+# Env files
+.env
+*.env
+
+# Firebase Keys
+Backend/serviceAccountKey.json
+.firebase/
+
+# Logs
+logs/
+*.log
